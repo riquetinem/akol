@@ -3,6 +3,7 @@ import React from 'react';
 import { ScrollView } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
+import { TouchableOpacity } from 'react-native-gesture-handler';
 import {
   Header,
   ArrowLeft,
@@ -59,7 +60,9 @@ const Community: React.FC = () => {
         <Images>
           <ListImages>
             <Image source={firstCommunity} />
-            <Image source={secondCommunity} />
+            <TouchableOpacity onPress={() => navigation.navigate('Forum')}>
+              <Image source={secondCommunity} />
+            </TouchableOpacity>
             <Image source={thirdCommunity} />
             <Image source={fourthCommunity} />
           </ListImages>

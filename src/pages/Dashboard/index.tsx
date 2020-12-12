@@ -29,7 +29,7 @@ const Dashboard: React.FC = () => {
       <ContentPage>
         <SpanText>Qual o seu experimento do dia?</SpanText>
 
-        <ButtonXp onPress={() => navigation.navigate('SignUp')}>
+        <ButtonXp onPress={() => navigation.navigate('MoscowMule')}>
           <TextButtonXp>Nova experiência</TextButtonXp>
         </ButtonXp>
 

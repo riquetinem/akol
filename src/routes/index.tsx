@@ -9,6 +9,7 @@ import Suggestions from '../pages/Suggestions';
 import MoscowMule from '../pages/MoscowMule';
 import Community from '../pages/Community';
 import SharedXp from '../pages/SharedXp';
+import Forum from '../pages/Forum';
 
 const Akol = createStackNavigator();
 
@@ -27,6 +28,7 @@ const Routes: React.FC = () => (
     <Akol.Screen name="MoscowMule" component={MoscowMule} />
     <Akol.Screen name="Community" component={Community} />
     <Akol.Screen name="SharedXp" component={SharedXp} />
+    <Akol.Screen name="Forum" component={Forum} />
   </Akol.Navigator>
 );
 
