@@ -38,7 +38,7 @@ const Dashboard: React.FC = () => {
           <TextButtonXp>Comunidade cervejeira</TextButtonXp>
         </ButtonXp>
 
-        <ButtonXp onPress={() => navigation.navigate('SignUp')}>
+        <ButtonXp onPress={() => navigation.navigate('Suggestions')}>
           <TextButtonXp>Sugestões da semana</TextButtonXp>
         </ButtonXp>
 

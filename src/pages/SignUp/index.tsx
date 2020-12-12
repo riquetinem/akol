@@ -51,12 +51,13 @@ const SignUp: React.FC = () => {
               autoCompleteType="email"
               keyboardType="email-address"
               autoCapitalize="none"
+              placeholder="jhondoe@email.com"
             />
           </InputArea>
 
           <InputArea>
             <LabelInput>Senha</LabelInput>
-            <Input secureTextEntry autoCapitalize="none" />
+            <Input secureTextEntry autoCapitalize="none" placeholder="******" />
           </InputArea>
 
           <ButtonSignUp onPress={() => navigation.navigate('Dashboard')}>
