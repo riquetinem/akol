@@ -33,7 +33,7 @@ const Dashboard: React.FC = () => {
           <TextButtonXp>Nova experiência</TextButtonXp>
         </ButtonXp>
 
-        <ButtonXp onPress={() => navigation.navigate('SignUp')}>
+        <ButtonXp onPress={() => navigation.navigate('SharedXp')}>
           <TextButtonXp>Experiências compartilhadas</TextButtonXp>
         </ButtonXp>
 
