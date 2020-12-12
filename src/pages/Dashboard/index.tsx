@@ -34,7 +34,7 @@ const Dashboard: React.FC = () => {
           <TextButtonXp>Experiências compartilhadas</TextButtonXp>
         </ButtonXp>
 
-        <ButtonXp onPress={() => navigation.navigate('SignUp')}>
+        <ButtonXp onPress={() => navigation.navigate('Community')}>
           <TextButtonXp>Comunidade cervejeira</TextButtonXp>
         </ButtonXp>
 
@@ -42,7 +42,7 @@ const Dashboard: React.FC = () => {
           <TextButtonXp>Sugestões da semana</TextButtonXp>
         </ButtonXp>
 
-        <ButtonXp onPress={() => navigation.navigate('SignUp')}>
+        <ButtonXp onPress={() => console.log('favoritas')}>
           <TextButtonXp>Experiências favoritas</TextButtonXp>
         </ButtonXp>
       </ContentPage>
