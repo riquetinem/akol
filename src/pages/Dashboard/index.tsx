@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { useNavigation } from '@react-navigation/native';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 import {
   Header,
   Avatar,
@@ -18,7 +19,9 @@ const Dashboard: React.FC = () => {
   return (
     <>
       <Header>
-        <Avatar source={avatar} />
+        <TouchableOpacity onPress={() => navigation.navigate('Profile')}>
+          <Avatar source={avatar} />
+        </TouchableOpacity>
 
         <Hello>Olá, Jhon Doe!</Hello>
       </Header>
