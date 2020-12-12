@@ -31,11 +31,11 @@ const Home: React.FC = () => {
       <ContentPage>
         <SpanText>O universo da experiência cervejeira</SpanText>
 
-        <Button onPress={() => navigation.navigate('SignUp')}>
+        <Button onPress={() => navigation.navigate('SignIn')}>
           Cadastre-se
         </Button>
 
-        <RectText onPress={() => navigation.navigate('SignUp')}>
+        <RectText onPress={() => navigation.navigate('SignIn')}>
           <SpanText>Já tem uma conta?</SpanText>
         </RectText>
       </ContentPage>

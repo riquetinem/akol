@@ -19,7 +19,7 @@ import {
 
 import AkolLogo from '../../assets/akol-logo.png';
 
-const SignUp: React.FC = () => {
+const SignIn: React.FC = () => {
   const navigation = useNavigation();
 
   return (
@@ -43,7 +43,7 @@ const SignUp: React.FC = () => {
         </Header>
 
         <ContentPage>
-          <SpanText>Como você deseja se cadastrar?</SpanText>
+          <SpanText>Como você deseja se logar?</SpanText>
 
           <InputArea>
             <LabelInput>E-mail</LabelInput>
@@ -61,7 +61,7 @@ const SignUp: React.FC = () => {
           </InputArea>
 
           <ButtonSignUp onPress={() => navigation.navigate('Dashboard')}>
-            Criar conta
+            Entrar
           </ButtonSignUp>
 
           <ButtonFacebook onPress={() => navigation.navigate('Dashboard')}>
@@ -73,4 +73,4 @@ const SignUp: React.FC = () => {
   );
 };
 
-export default SignUp;
+export default SignIn;

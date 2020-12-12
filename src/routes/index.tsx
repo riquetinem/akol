@@ -2,7 +2,7 @@ import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import Home from '../pages/Home';
-import SignUp from '../pages/SignUp';
+import SignIn from '../pages/SignIn';
 import Dashboard from '../pages/Dashboard';
 import Profile from '../pages/Profile';
 import Suggestions from '../pages/Suggestions';
@@ -21,7 +21,7 @@ const Routes: React.FC = () => (
     }}
   >
     <Akol.Screen name="Home" component={Home} />
-    <Akol.Screen name="SignUp" component={SignUp} />
+    <Akol.Screen name="SignIn" component={SignIn} />
     <Akol.Screen name="Dashboard" component={Dashboard} />
     <Akol.Screen name="Profile" component={Profile} />
     <Akol.Screen name="Suggestions" component={Suggestions} />
