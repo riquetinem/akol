@@ -15,7 +15,7 @@
 ## Funcionalidades
 
 <h1 align="center">
-  <img  src="https://i.imgur.com/UrUtFV4.png">
+  <img  src="https://i.imgur.com/gApFqXP.png">
 </h1>
 <p align="justify">Ao fazer o login na plataforma, o John pode <b>cadastrar uma nova experiência</b>: colocar informações de harmonização, ingredientes necessários e como instruções de preparo. Pode ainda acrescentar fotos, com quem foi compartilhada a experiência  e o local. <b>Sua experiência também pode ser compartilhada</b> nas redes sociais ou favoritadas, criando uma lista de suas misturas preferidas.
 
