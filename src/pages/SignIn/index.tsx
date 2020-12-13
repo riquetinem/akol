@@ -51,7 +51,7 @@ const SignIn: React.FC = () => {
               autoCompleteType="email"
               keyboardType="email-address"
               autoCapitalize="none"
-              placeholder="jhondoe@email.com"
+              placeholder="johndoe@email.com"
             />
           </InputArea>
 

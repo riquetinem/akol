@@ -23,7 +23,7 @@ const Dashboard: React.FC = () => {
           <Avatar source={avatar} />
         </TouchableOpacity>
 
-        <Hello>Olá, Jhon Doe!</Hello>
+        <Hello>Olá, John Doe!</Hello>
       </Header>
 
       <ContentPage>

@@ -32,7 +32,7 @@ const Dashboard: React.FC = () => {
 
         <Avatar source={avatar} />
 
-        <Hello>Jhon Doe, 30 anos</Hello>
+        <Hello>John Doe, 30 anos</Hello>
       </Header>
 
       <ContentPage>
